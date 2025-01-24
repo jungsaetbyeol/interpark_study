@@ -1,4 +1,64 @@
 @charset "utf-8";
-.tour-img img{
-    width: 100%;
+.tour .swiper-wrapper{
+    align-items: flex-end;
+}
+.tour-img img {
+  width: 100%;
+}
+.tour-link {
+  display: block;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+.tour-img {
+}
+.tour-img img {
+  width: 100%;
+  aspect-ratio: 1 / 0.6;
+}
+.tour-info {
+  padding: 5%;
+  background-color: #fff;
+}
+.tour-info-list li {
+  position: relative;
+}
+.tour-cate {
+  position: absolute;
+  top: -33px;
+  left: 0;
+  display: inline-block;
+  background: #4a95ff;
+  font-size: 14px;
+  line-height: 32px;
+  color: #fff;
+  font-weight: 700;
+  padding: 0 10px;
+  border-radius: 3px;
+}
+.tour-title {
+    display: block;
+  font-size: 15px;
+  list-style: 10px;
+  color: #4a95ff;
+  /* 한줄 말줄임 표시 */
+  /* max-width: 200px; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-top: 10px;
+}
+.tour-price{
+    line-height: 24px;
+    font-size: 16px;
+
+}
+.tour-price b{
+    font-weight: 700;
+    font-size: 20px;
+}
+.tour-place{
+    line-height: 20px;
+    font-size: 12px;
 }

@@ -39,5 +39,43 @@ const swTour = new Swiper(".sw-tour", {
             },
         },
     },
+    navigation: {
+      nextEl: ".tour .sw-next",
+      prevEl: ".tour .sw-prev",
+    },
 });
+const swShopping = new Swiper(".sw-shopping" , {
+  spaceBetween: 15,
+  slidesPerView: 1.5,
+  grid:{
+    rows: 1,
+    fill:"row"
+  },
+  breakpoints:{
+    480:{
+      spaceBetween: 26,
+      slidesPerView: 2,
+      slidesPerGroup: 2,
+    },
+    768:{
+      spaceBetween: 26,
+      slidesPerView: 3,
+      slidesPerGroup: 3,
+      grid:{
+        rows: 2
+      }
+    },
+    
+    1280:{
+      spaceBetween: 26,
+      slidesPerView: 4,
+      slidesPerGroup: 4,
+    }
+  },
+  navigation: {
+    nextEl: ".shopping .sw-next",
+    prevEl: ".shopping .sw-prev",
+  },
+
+})
 });

@@ -19,6 +19,7 @@
   width: 50%;
   display: flex;
   gap: 8%;
+  min-width: 450px;
  
 }
 /* 로고 */
@@ -32,6 +33,7 @@
 /* 검색창 */
 .search {
   width: 70%;
+  min-width: 300px;
   max-width: 455px;
 height: 40px;
   background-color: #fff;
@@ -58,6 +60,7 @@ height: 40px;
   align-items: center;
 }
 .member-list {
+  min-width: 200px;
   width: 100%;
   display: flex;
   justify-content: flex-end;
